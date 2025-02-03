@@ -7,7 +7,7 @@ def fetch_quotes():
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     quotes = soup.find_all('span', class_='text')
-    print("\nTodays quote of the day is: " + random.choice(quotes).text + "\n")
+    print("\n>>>  Todays quote of the day is: " + random.choice(quotes).text + "\n")
     # for quote in quotes:
         # print(quote.text)
 
