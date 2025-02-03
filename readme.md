@@ -2,7 +2,7 @@
 
 # Method 3
 
-import requests
+<!-- import requests
 from bs4 import BeautifulSoup as bs
 
 url = 'https://news.ycombinator.com/'
@@ -22,7 +22,7 @@ try:
         print(link.get_text(strip=True))
 
 except requests.exceptions.RequestException as e:
-    print(f"Error fetching the page: {e}")
+    print(f"Error fetching the page: {e}") -->
 
 
 # Explanation of method 3
