@@ -13,8 +13,8 @@ if __name__ == "__main__":
         repo = repos[i]  
         path = paths[i]  
         
-        print(f">>> Pulling changes from repo: {repo} \n")
-        os.system(f"git -C {path} pull --no-rebase {repo} main --allow-unrelated-histories")
+        print(f"\n>>> Pulling changes from repo: '{repo}'")
+        os.system(f"git -C {path} pull --no-rebase {repo} main")
         print("\n")
 else:
     print(">>> BYE BYE!")
