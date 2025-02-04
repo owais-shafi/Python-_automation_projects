@@ -20,11 +20,6 @@ if __name__ == "__main__":
 # random.choice() is a function from the random module in Python. It selects a random item from a non-empty sequence (such as a list, tuple, or string).
 # In this case, the sequence is quotes. This implies that quotes is a list (or similar sequence) containing multiple items, such as text strings, objects, or elements.
 # Example:
-
-# python
-# Copy code
-# import random
-
 # quotes = ["Be yourself.", "Stay positive.", "Keep learning."]
 # random_quote = random.choice(quotes)
 # print(random_quote)
