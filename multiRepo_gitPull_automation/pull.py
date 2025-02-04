@@ -14,7 +14,7 @@ if __name__ == "__main__":
         path = paths[i]  
         
         print(f"\n>>> Pulling changes from repo: '{repo}'")
-        os.system(f"git -C {path} pull --no-rebase {repo} main")
+        os.system(f"git -C {path} pull {repo} main")
         print("\n")
 else:
     print(">>> BYE BYE!")
