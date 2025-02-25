@@ -1,12 +1,10 @@
 import os
 
 repos = ["https://github.com/owais-shafi/Python-_automation_projects.git", 
-         "https://github.com/m4milaad/Pyhton-Projects.git",
-         "https://github.com/owais-shafi/order-of-north-platform.git"]
+         "https://github.com/m4milaad/Pyhton-Projects.git"]
 
 paths = ["~/Downloads/Python_projects", 
-         "~/Downloads/miladProjects/Pyhton-Projects", 
-         "~/Downloads/GeneralProjects/order-of-north-platform"]
+         "~/Downloads/miladProjects/Pyhton-Projects"]
 
 if __name__ == "__main__":  
     for i in range(len(repos)):
